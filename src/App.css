@@ -1,0 +1,125 @@
+/* .App {
+  text-align: center;
+} */
+/**************************** LOGIN ***************************/
+#login-wrapper {
+  display: flex;
+  /* position: absolute; */
+  background: url(login-bg.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+#login-wrapper > .row > h1 {
+  position: absolute;
+  right: 60%;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 2%;
+  color: rgba(0, 0, 0, 0.507);
+}
+
+.user-login {
+  position: absolute;
+  right: 20%;
+  bottom: 30%;
+  
+}
+.user-img {
+  width: 40%;
+  margin: 0 0 10% 25%;
+}
+
+@media (max-width: 768px) {
+  #login-wrapper>.row>h1 {
+    font-size: 200%;
+    margin-top: 30%;
+  }
+  .user-login {
+    margin-left: 10%;
+
+  }
+}
+
+/****************** MENU ***********************/
+#menu-wrapper{
+  display: flex;
+  background: url(menu-bg.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.user-menu {
+  position: absolute;
+  right: 35%;
+  /* align-items: center; */
+  bottom: 30%;
+
+}
+
+.user-img-menu {
+  width: 40%;
+  margin: 0 0 1% 25%;
+}
+
+.menu-btn {
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.329);
+  color:rgba(0, 0, 0, 0.938);
+  width: 60%;
+  margin-left: 15.5%;
+  margin-bottom: 1%;
+}
+
+.menu-btn:hover, .menu-btn:active {
+  background-color: rgba(255, 166, 0, 0.363);
+}
+
+.logout {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+.back {
+  position: absolute;
+  right: 7%;
+  top: 2%;
+}
+
+#create-account-wrapper {
+  display: flex;
+  justify-content: center;
+  background: url(menu-bg.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  padding-top: 5%;
+}
+
+#view-account-wrapper {
+  display: flex;
+  background: url(menu-bg.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  padding-top: 5%;
+}
+
+#customers-list {
+  border: 2px solid grey;
+   background-color: rgba(255, 166, 0, 0.363);
+   margin-top: 4%;
+   width: 200%;
+}
+/* #customers-list:hover{
+  background-color: grey;
+  cursor: pointer;
+} */
+.customer-view-detail {
+  background-color: rgba(255, 166, 0, 0.363);
+}
+.customer-view-detail:hover {
+  background-color: rgba(77, 60, 30, 0.726);
+}
+
+/* .customer-detail{
+  display: none;
+} */
